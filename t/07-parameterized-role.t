@@ -2,10 +2,10 @@ use strict;
 use warnings;
 
 use Test::More;
-use Test::Fatal;
 
 use Test::Requires {
     'MooseX::Role::Parameterized' => '0',
+		'Test::Fatal' => '0'
 };
 
 plan skip_all =>
